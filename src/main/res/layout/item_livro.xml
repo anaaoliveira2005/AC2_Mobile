@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_margin="8dp"
+    android:background="@drawable/borda_edittext"
+    android:clickable="true"
+    android:focusable="true">
+
+    <TextView
+        android:id="@+id/txtTituloLivro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Título do livro"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/txtAutorLivro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Autor"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/txtGeneroLivro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gênero"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txtAnoLivro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ano de publicação"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txtStatusLivro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status de leitura"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:paddingTop="4dp" />
+</LinearLayout>

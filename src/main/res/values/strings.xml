@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Ac2</string>
+    <string-array name="opcoes_genero">
+        <item>Romance</item>
+        <item>Suspense</item>
+        <item>Terror</item>
+        <item>Fantasia</item>
+        <item>Ficção Científica</item>
+        <item>Biografia</item>
+    </string-array>
+
+    <string-array name="opcoes_status_de_leitura">
+        <item>Quero ler</item>
+        <item>Lendo</item>
+        <item>Concluído</item>
+    </string-array>
+
+    <string-array name="opcoes_filtro_genero">
+        <item>Todos</item>
+        <item>Romance</item>
+        <item>Suspense</item>
+        <item>Terror</item>
+        <item>Fantasia</item>
+        <item>Ficção Científica</item>
+        <item>Biografia</item>
+    </string-array>
+</resources>
